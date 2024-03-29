@@ -1,0 +1,26 @@
+<div class="signup-container">
+  <div class="title">
+    <p class="text">Create Account</p>
+    <p class="text1">Provide necessary information to proceed <br>
+      with registration or sign up with social media </p>
+    </div>
+    <form (ngSubmit)="onSubmit()" class="sign-up">
+        <app-input [src]='user' [type]="'text'" [placeholder]="'Enter username'" [(ngModel)]="username" name="username" ngDefaultControl></app-input>
+        <app-input [src]='mail' [type]="'email'" [placeholder]="'Enter email'" [(ngModel)]="email" name="email" ngDefaultControl></app-input>
+        <app-input [src]='phone' [type]="'password'" [placeholder]="'Phone Number (Optional)'" [(ngModel)]="password" name="password" ngDefaultControl></app-input>
+      <button type="submit"class="button3 but-style" (click)="sendData()">Proceed </button>
+      <button class="btn-sign but-style" (click)="handlelogin()">I already have an account </button>
+    </form>
+    <div class="browser">
+      <button class="button-style">
+        <img [src]='Ico1'alt="">
+      </button>
+      <button class="button-style">
+        <img [src]='Ico2'class="metamask"alt="">
+        <img [src]='Ico4'class="instegram"alt="">
+      </button>
+      <button class="button-style">
+        <img [src]='Ico3'alt="">
+      </button>
+    </div>
+  </div>

@@ -1,0 +1,30 @@
+.form-container {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.form-field {
+	width: 100%;
+	/* Adjust width as needed */
+	margin-bottom: 16px;
+	display: flex;
+	align-items: center;
+	/* Spacing between fields */
+}
+
+mat-dialog-content {
+	overflow-y: visible;
+	/* Prevent vertical scrollbar */
+}
+
+h2 {
+	text-align: center;
+}
+
+// mat-button {
+// 	margin: 0px 20px;
+// 	display: flex;
+// 	width: 80%;
+// 	justify-content: space-between;
+// }

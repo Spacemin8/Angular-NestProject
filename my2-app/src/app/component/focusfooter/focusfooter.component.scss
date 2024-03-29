@@ -1,0 +1,132 @@
+.focusfooter-menu {
+	width: calc(100% - 200px);
+	padding: 40px 100px 40px 100px;
+	border-top: 4px solid #E94C68B2;
+	border-radius: 20px 20px 0px 0px;
+	gap: 10px;
+	background: linear-gradient(41.32deg, #FFDA65 22.85%, #FD9C67 87.27%);
+
+	.focusfooter-field {
+		display: flex;
+		flex-direction: row;
+		justify-content: space-between;
+
+		.focusfooter-mark {
+			width: 284px;
+			height: 280px;
+
+			.logo-size3 {
+				display: flex;
+
+				img {
+					width: 280px;
+					height: 150px;
+					align-self: center;
+				}
+			}
+
+
+			.gap2 {
+				height: 44px;
+			}
+
+			.btn_eff {
+				background: linear-gradient(113.87deg, #DD5690 14.81%, #FDB95F 88.76%);
+				border: none;
+				box-shadow: 0px 6px 18px 0px #F2A69C;
+				border-radius: 10px;
+				cursor: pointer;
+				width: 100%;
+				padding: 19px 0px;
+				margin: 0 0 30px;
+				color: white;
+				font-family: Syne;
+				font-size: 16px;
+				font-weight: 700;
+				text-align: center;
+			}
+		}
+
+		.focusfooter-dec {
+			width: 946px;
+			height: 282px;
+			gap: 17px;
+
+			.mark-btn {
+				width: 140px;
+				height: 50px;
+				margin: auto;
+				display: flex;
+				align-items: center;
+				justify-content: space-between;
+
+				.btn-opa {
+					background: #FEB966;
+					width: 54px;
+					height: 54px;
+					border: none;
+					border-radius: 26px;
+					gap: 10px;
+					cursor: pointer;
+
+				}
+
+			}
+
+			p {
+				height: 106px;
+				font-family: Cairo;
+				font-size: 16px;
+				font-weight: 700;
+				line-height: 30px;
+				letter-spacing: 0em;
+				text-align: center;
+				color: #24262D;
+
+				span {
+					font-weight: 400;
+					color: #654657;
+				}
+			}
+
+			.mark-img {
+				margin: auto;
+				display: flex;
+				justify-content: space-between;
+				align-items: center;
+				width: 250px;
+				height: 50px;
+
+				img {
+					width: 95px;
+					height: 50px;
+				}
+			}
+		}
+
+
+	}
+
+	.hr1 {
+		display: block;
+		width: 100%;
+		height: 2px;
+		margin: 0px auto;
+		background: linear-gradient(90deg, #FFDA65 -0.73%, #FEB266 -0.72%, #FFDA65 101.17%);
+	}
+
+	.focusfooter-des {
+		width: 100%;
+		height: 30px;
+		font-family: Cairo;
+		font-size: 16px;
+		font-weight: 400;
+		line-height: 30px;
+		letter-spacing: 0em;
+		text-align: center;
+		color: #654657;
+
+
+	}
+
+}

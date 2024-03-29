@@ -1,0 +1,71 @@
+// MenuBar.scss
+.menu-bar {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 0% 5%;
+	background-color: rgba(0, 0, 0, 0);
+	width: 100%;
+	box-sizing: border-box;
+	position: absolute;
+
+
+}
+
+.logo-size1 {
+	background-image: url('../../../assets/image/Logo.png');
+	background-size: cover;
+	width: 70px;
+	height: 70px;
+}
+
+.btn-login {
+	width: 107px;
+	height: 60px;
+	padding: 0px 30px;
+	border-radius: 10px;
+	gap: 12px;
+	color: black;
+	border: none;
+	cursor: pointer;
+
+	&:hover {
+		background-color: rgb(209, 113, 100) !important;
+	}
+
+	&:active {
+		background-color: rgb(161, 41, 25) !important;
+	}
+}
+
+.btn-signup {
+	width: 167px;
+	height: 60px;
+	padding: 0px 50px;
+	gap: 12px;
+	background: linear-gradient(113.87deg, #DD5690 14.81%, #FDB95F 88.76%);
+	color: aliceblue;
+	cursor: pointer;
+
+	&:hover {
+		background-color: rgb(209, 113, 100) !important;
+	}
+
+	&:active {
+		background-color: rgb(161, 41, 25) !important;
+	}
+}
+
+.btn-eff {
+	background: linear-gradient(113.87deg, #DD5690 14.81%, #FDB95F 88.76%);
+	border: none;
+	box-shadow: 0px 6px 18px 0px #F2A69C;
+	border-radius: 10px;
+	cursor: pointer;
+}
+
+@media (max-width: 900px) {
+	.button-container {
+		display: none;
+	}
+}

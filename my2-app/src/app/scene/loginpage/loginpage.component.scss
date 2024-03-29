@@ -1,0 +1,49 @@
+.Login-page {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	align-content: center;
+	height: 100vh;
+	width: 100%;
+	margin: 0;
+}
+
+.Login-back {
+	width: 45%;
+	min-height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: linear-gradient(181.71deg, rgba(246, 232, 234, 0.24) -5%, rgba(249, 240, 230, 0.24) 37.12%, rgba(244, 158, 109, 0.24) 143.7%);
+	background-image: url('../../../assets/image/Rectangle 5986.svg'), url('../../../assets/image/Group.svg');
+	background-size: cover;
+}
+
+.Login-set {
+	width: 55%;
+	min-height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: rgb(250, 245, 240);
+}
+
+@media (max-width: 900px) {
+	.Login-back {
+		display: none;
+	}
+
+	.Login-set {
+		background-image: url('../../../assets/image/Rectangle 5986.svg'), url('../../../assets/image/Group.svg');
+		background-size: cover;
+		width: 100%;
+	}
+
+}
+
+@media (max-width: 400px) {
+	.Login-set {
+		width: 375px;
+	}
+}

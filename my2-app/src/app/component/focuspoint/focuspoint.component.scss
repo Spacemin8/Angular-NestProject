@@ -1,0 +1,114 @@
+.focuspoint {
+	margin: 10px 25px;
+	position: relative;
+	text-align: center;
+	width: 333px;
+	height: 157px;
+	border-radius: 30px;
+	background-image: url("../../../assets/image/back4.png"), linear-gradient(153.46deg, #D55C86 5%, rgba(108, 52, 165, 0.84) 126.02%);
+	background-size: cover;
+
+	#edit {
+		position: absolute;
+		top: 15px;
+		right: 22px;
+		cursor: pointer;
+	}
+
+	#save {
+		position: absolute;
+		top: 40px;
+		right: 14px;
+		cursor: pointer;
+	}
+
+	#del {
+		position: absolute;
+		top: 100px;
+		right: 14px;
+		cursor: pointer;
+	}
+
+	#user {
+		display: flex;
+		justify-content: space-between;
+		position: absolute;
+		top: 63px;
+		left: 19px;
+		cursor: pointer;
+		width: 65px;
+		height: 22px;
+		border: none;
+		padding: 3px 10px 3px 10px;
+		border-radius: 12px;
+		gap: 4px;
+		background: linear-gradient(90.63deg, rgba(189, 91, 249, 0.78) 9.11%, rgba(231, 38, 223, 0.78) 41.9%, rgba(255, 112, 189, 0.78) 70.8%, rgba(247, 149, 202, 0.78) 95.76%);
+		font-family: Cairo;
+		font-size: 10px;
+		font-weight: 600;
+		line-height: 15px;
+		letter-spacing: 0em;
+		text-align: right;
+		color: white;
+	}
+
+	#fizz {
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		position: absolute;
+		top: 63px;
+		left: 100px;
+		cursor: pointer;
+		width: 65px;
+		height: 22px;
+		padding: 3px 10px 3px 10px;
+		border: none;
+		border-radius: 12px;
+		gap: 4px;
+		background: linear-gradient(90.63deg, rgba(189, 91, 249, 0.78) 9.11%, rgba(231, 38, 223, 0.78) 41.9%, rgba(255, 112, 189, 0.78) 70.8%, rgba(247, 149, 202, 0.78) 95.76%);
+		font-family: Cairo;
+		font-size: 10px;
+		font-weight: 600;
+		line-height: 15px;
+		letter-spacing: 0em;
+		text-align: right;
+		color: white;
+	}
+
+	div:nth-child(odd) {
+		position: absolute;
+		width: 301px;
+		height: 48px;
+		top: 11px;
+		left: 21px;
+		margin: auto;
+		text-align: center;
+		font-family: Syne;
+		font-size: 16px;
+		font-weight: 700;
+		line-height: 24px;
+		letter-spacing: 0em;
+		text-align: left;
+		color: white;
+	}
+
+	div:nth-child(even) {
+		position: absolute;
+		width: 247px;
+		height: 42px;
+		top: 101px;
+		left: 21px;
+		text-align: center;
+		padding: 0;
+		font-family: Cairo;
+		font-size: 14px;
+		font-weight: 500;
+		line-height: 21px;
+		letter-spacing: 0em;
+		text-align: left;
+		color: white;
+
+
+	}
+}

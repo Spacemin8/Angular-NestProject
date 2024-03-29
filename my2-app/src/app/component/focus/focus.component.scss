@@ -1,0 +1,228 @@
+h1 {
+	font-family: Syne;
+	font-size: 32px;
+	font-weight: 600;
+	line-height: 40px;
+	letter-spacing: 0.1em;
+	text-align: center;
+}
+
+.focus-menu {
+	width: 90%;
+	margin: 0px auto 48px;
+	padding: 0 0 60px;
+	box-sizing: border-box;
+	border-radius: 24px;
+	background: #F8E6D940;
+
+	.focus-title {
+		width: 100%;
+		height: 53px;
+		border-top-right-radius: 24px;
+		border-top-left-radius: 24px;
+		background: #F5EBE0;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+
+		button {
+			cursor: pointer;
+			background: #F8EEE3;
+			margin: 0px;
+			padding: 0px;
+			width: 200px;
+			height: 52px;
+			border: none;
+			border-bottom: 3px solid red;
+			border-image: linear-gradient(90deg, #845DEA 0%, #EB5DB9 99.7%);
+			border-image-slice: 1;
+			box-shadow: -1px 4px 9px 0px #CCA8807D;
+			font-family: Cairo;
+			font-size: 23px;
+			font-weight: 700;
+			line-height: 35px;
+			letter-spacing: 0em;
+			text-align: center;
+		}
+
+		button:nth-child(even) {
+			color: #B890AA;
+			font-size: 16px;
+			box-shadow: none;
+			border: none;
+		}
+	}
+
+	.focus-main {
+		width: 90%;
+		height: 80%;
+		top: 50px;
+		margin: auto;
+
+		.focus-head {
+			height: 25%;
+			display: flex;
+			justify-content: space-between;
+			align-items: center;
+
+			.tex-g {
+
+				h6 {
+					margin: 10px;
+					padding: 0px 0px 10px 10px;
+					text-align: left;
+					font-family: Cairo;
+					font-size: 16px;
+					font-weight: 500;
+					line-height: 24px;
+					letter-spacing: 0em;
+					text-align: left;
+					color: #654657;
+				}
+
+				.tex-1 {
+					display: flex;
+					align-items: center;
+
+					p {
+						font-family: Cairo;
+						font-size: 40px;
+						font-weight: 600;
+						line-height: 30px;
+						letter-spacing: 0em;
+						text-align: left;
+						margin: 0px 20px;
+					}
+
+					span {
+						font-family: Cairo;
+						font-size: 20px;
+						font-weight: 700;
+						background-image: linear-gradient(88.56deg, rgba(151, 45, 167, 0.78) -17.82%, rgba(235, 47, 131, 0.78) 26.14%, rgba(252, 152, 103, 0.78) 64.88%, rgba(255, 214, 46, 0.78) 98.35%);
+						background-clip: text;
+						color: transparent;
+					}
+				}
+			}
+
+			.btn-add {
+				cursor: pointer;
+				font-family: Syne;
+				font-size: 18px;
+				font-weight: 700;
+				line-height: 25px;
+				letter-spacing: 0em;
+				text-align: center;
+				color: white;
+				width: 327px;
+				height: 57px;
+				padding: 16px;
+				border: 1px solid;
+				border-radius: 12px;
+				background: linear-gradient(90.63deg, rgba(231, 62, 173, 0.78) 9.11%, rgba(231, 38, 165, 0.78) 41.9%, rgba(233, 76, 123, 0.78) 70.8%, rgba(234, 39, 121, 0.78) 90.16%);
+				border-image-source: linear-gradient(180deg, #C03366 0%, rgba(196, 38, 142, 0) 100%);
+				box-shadow: 0px 4px 4px 0px #00000040;
+			}
+		}
+
+		.hr {
+			height: 2px;
+			background-color: #F3DEC4;
+		}
+
+		.focus-field {
+			width: 100%;
+			height: auto;
+			display: flex;
+			align-items: center;
+			justify-content: center;
+			flex-wrap: wrap;
+
+			p {
+				width: inherit;
+				margin: 80px;
+				font-family: Syne;
+				font-size: 24px;
+				font-weight: 600;
+				letter-spacing: 0.1em;
+				line-height: 40px;
+				text-align: center;
+				color: #654657;
+
+				span {
+					height: 44px;
+					font-size: 16px;
+					letter-spacing: 0em;
+					line-height: 20px;
+				}
+			}
+
+			.morebutton {
+				margin: 0px auto;
+				cursor: pointer;
+				width: 28%;
+				height: 46px;
+				background: linear-gradient(113.87deg, rgba(221, 86, 144, 0.1) 14.81%, rgba(252, 181, 97, 0.1) 88.76%);
+				border: none;
+				border-radius: 10px;
+				font-family: Syne;
+				font-size: 16px;
+				font-weight: 500;
+				line-height: 22px;
+				letter-spacing: 0em;
+				text-align: center;
+
+			}
+
+		}
+	}
+}
+
+.input-size {
+	margin: auto;
+	width: 80%;
+}
+
+.input-grouparea {
+	margin: 20px auto;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 100%;
+	height: 250px;
+	border-radius: 10px;
+	gap: 12px;
+	background-color: #FFFFFF;
+
+	div {
+		height: inherit;
+		width: 100px;
+		position: relative;
+
+		h4 {
+			position: absolute;
+			top: 0;
+		}
+
+	}
+}
+
+textarea {
+	width: 80%;
+	height: 120px;
+	font-family: Cairo;
+	font-size: 16px;
+	font-weight: 500;
+	line-height: 22px;
+	letter-spacing: 0em;
+	text-align: left;
+	color: #24262D;
+	border: none;
+	outline: none;
+	border-radius: 10px;
+	background-color: #f1f1f1;
+}
+
+.hidden {
+	display: none;
+}

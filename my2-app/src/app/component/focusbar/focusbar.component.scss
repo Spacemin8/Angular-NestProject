@@ -1,0 +1,93 @@
+.focus-bar {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 0% 5%;
+	background-color: rgba(0, 0, 0, 0);
+	color: #fff;
+	width: 100%;
+	padding: 33px;
+	box-sizing: border-box;
+	position: absolute;
+	z-index: 1;
+}
+
+.logo-size2 {
+	width: 70px;
+height: 70px;
+background-image: url('../../../assets/image/Logo.png');
+background-size: cover;
+}
+
+.btn-container {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+
+}
+
+.btn-container div {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.btn-Focus {
+	display: flex;
+	height: 56px;
+	background-color: rgba(0, 0, 0, 0);
+	border: none;
+	cursor: pointer;
+	align-items: center;
+	justify-content: center;
+}
+
+.btn-underline {
+	border-bottom: 3px solid red;
+	border-image: linear-gradient(90deg, #845DEA 0%, #EB5DB9 99.7%);
+	border-image-slice: 1;
+}
+
+.btn-style {
+	display: flex;
+}
+
+.btn-p {
+	font-family: Syne;
+	font-size: 14px;
+	font-weight: 600;
+	line-height: 40px;
+	letter-spacing: 0.04em;
+	text-align: center;
+	padding: 5px;
+	color: black;
+}
+
+.btn-menu {
+	display: none;
+}
+
+.btn-log {
+	display: block;
+}
+
+@media (max-width: 1300px) {
+	.btn-container {
+		display: none;
+	}
+
+	.btn-log {
+		display: none;
+	}
+
+	.btn-menu {
+		display: block;
+		margin: 0px 30px;
+	}
+}
+
+@media (max-width: 375px) {
+	.focus-bar {
+		width: 375px;
+	}
+}
